@@ -1,0 +1,33 @@
+/* element selector div {
+            color: rgb(255, 60, 0);
+        } */
+
+        /* class selector .div {
+            color: rgb(255, 60, 0);
+        } */
+
+        #div {
+            color: red;
+            width: 100px;
+            height: 100px;
+            border: 4px double #0080006b;
+            border-top: 5px solid orange; border-bottom: 5px solid orange;
+            /* border: 5px 10px 20px 30px; */
+            border-radius: 100px;
+            /* background-color: tomato; */
+            padding: 25px;
+            /* margin: 25px 50px 70px 90px; */
+            margin-top: 25px;
+            margin-right: 50px;
+            margin-bottom: 70px;
+            margin-left: 90px;
+        }
+
+        p a {
+            color: green;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: blue;
+        }
