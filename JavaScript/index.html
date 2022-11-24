@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Variables (Değişkenler)</title>
+    <script>
+        
+        // console.log("Hello world!0");
+        // document.write("Hello world!");
+        // alert("Hello world!");
+        // alert("Hello world!");
+        // console.log("Hello world!");
+
+        let adi = " aykut"; //metin tipindeki bir değişken
+        let soyadi = "Baştuğ "; //metin tipindeki bir değişken
+
+        let adiSoyadi = adi + " " + soyadi; //birden fazla metin değerini birleşriyoruz.
+        document.write(adiSoyadi);
+        document.write("<br>");
+        //document.write("<input type='text'>");
+
+        let sayi1 = 50; //sayısal tipide bir değişken
+        let sayi2 = 90; //sayısal tipide bir değişken
+
+        // document.write(sayi1 + sayi2); //iki tane sayısal değişkeni toplama işlemi yapıyoruz. (4 işlem)
+        document.write(sayi1.toString() + sayi2.toString()); //sayısal değişken tipini metine çevirdik
+
+        document.write("<br>");
+        document.write("karakter Sayısı : " + adiSoyadi.length);
+        document.write("<br>");
+        document.write("Büyük Harf : " + adiSoyadi.toUpperCase());
+        document.write("<br>");
+        document.write("Küçük Harf : " + adiSoyadi.toLowerCase());
+        document.write("<br>");
+        document.write("Sondaki boşlukları kaldır : " + adiSoyadi.trimEnd());
+        document.write("<br>");
+        document.write("baştaki boşlukları kaldır : " + adiSoyadi.trimStart());
+
+        //boolean değişken tipinde tanımlama yapıldı
+        let evet = true;
+        let hayir = false;
+
+
+        document.write("<br>");
+        document.write("<br>");
+        let renkler = ["Sarı", "Lacivert", "Kırmızı", "Yeşil"]; //dizi tanımlaması. birden fazla elemana sahip değişken tipidir.
+        document.write(renkler[0]);
+        
+        document.write("<br>");
+        let sayilar = [1,2,3,4,5];
+        
+        document.write("<br>");
+        document.write(renkler); // bir dizideki elemanları virgül ile ayırarak yan yana yazar
+        document.write("<br>");
+        document.write(renkler.join("------"));  // bir dizideki elemanları virgül yerine bizim belirlediğimiz bir karakter ile ayırarak yan yana yazar
+        document.write("<br>");
+
+        renkler.pop(); //dizideki son elemanı siler        
+        document.write(renkler.join("-|-"));        
+        document.write("<br>");
+
+        renkler.push("Beyaz"); //dizinin en sonuna bir elemen ekler
+        document.write(renkler.join("-|-"));        
+        document.write("<br>");
+
+        renkler.sort(); //dizinin elemenlarını A'dan Z'ye sıralar. (Küçükten büyüğe)
+        document.write(renkler.join("-|-"));        
+        document.write("<br>");
+
+        renkler.reverse(); //dizinin elemanlarını Z'den A'ya sıralar. (Büyükten küçüğe)
+        document.write(renkler.join("-|-"));        
+        document.write("<br>");
+
+
+        
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
