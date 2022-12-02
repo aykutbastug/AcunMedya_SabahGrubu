@@ -4,3 +4,6 @@
 select Id, Adi as [Adı], Soyadi as [Soyadı] from Musteriler
 select top(200) Id, Adi as [Adı], Soyadi as [Soyadı] from Musteriler
 
+
+select Id, Adi + ' ' + Soyadi as [Adı Soyadı] from Musteriler
+
