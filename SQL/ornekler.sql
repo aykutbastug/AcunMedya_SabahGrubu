@@ -40,3 +40,4 @@ select * from Orders where ShipRegion is not null --ShipRegion alanı NULL olmay
 --ilk 5 ürün kaydının Ürün adı, CategoryId ve StokMiktari verilerini
 --Ürün adına göre sıralayarak getirsin
 
+select top 10 * from dbo.Products order by UnitPrice desc
