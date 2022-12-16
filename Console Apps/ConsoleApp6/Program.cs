@@ -54,10 +54,6 @@
         {
             return sayi1 + sayi2;
         }
-
-
-        //sayıyı isteyen metot olacak
-        //iki sayı parametre alan ve geriye toplamını döndüren bir metot olacak
-        //girilen iki sayının toplamını ekrana yazdıracak
+        
     }
 }
