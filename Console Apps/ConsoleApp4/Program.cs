@@ -46,16 +46,29 @@
             //        break;
             //}
 
-            for (int i = 0; i < 10; i++)
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.WriteLine(i);
+
+
+            //    for (int a = 50; a < 55; a++)
+            //    {
+            //        Console.WriteLine(a * i);
+            //    }
+            //}
+
+            int giris = 0;
+            do
             {
-                Console.WriteLine(i);
+                Console.WriteLine("Çıkmak için klavyeden 1 tuşuna basın..");
+                giris = Convert.ToInt32(Console.ReadLine());   
+
+            } while (giris != 1);
 
 
-                for (int a = 50; a < 55; a++)
-                {
-                    Console.WriteLine(a * i);
-                }
-            }
+
+
+
         }
     }
 }
