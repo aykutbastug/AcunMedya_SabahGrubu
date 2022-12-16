@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+/Console Apps/ConsoleApp6/bin/Debug/net6.0/ConsoleApp6.dll
+/Console Apps/ConsoleApp6/bin/Debug/net6.0/ConsoleApp6.pdb
+/Console Apps/ConsoleApp6/obj/Debug/net6.0/ConsoleApp6.pdb
+/Console Apps/ConsoleApp6/obj/Debug/net6.0/ConsoleApp6.dll
