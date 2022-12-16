@@ -18,11 +18,12 @@
 
             //EkranaYaz();
 
-            int sonuc = SayilariTopla();
+            int sonuc = SayilariTopla(9, 6);
             Console.WriteLine(sonuc);
             Console.WriteLine(SayilariTopla());
             EkranaYaz(sonuc.ToString());
             EkranaYaz(SayilariTopla().ToString());
+
         }
 
         //static void DenemeMetot()
@@ -47,9 +48,16 @@
 
         static int SayilariTopla()
         {
-
-
             return 5 + 4;
         }
+        static int SayilariTopla(int sayi1, int sayi2)
+        {
+            return sayi1 + sayi2;
+        }
+
+
+        //sayıyı isteyen metot olacak
+        //iki sayı parametre alan ve geriye toplamını döndüren bir metot olacak
+        //girilen iki sayının toplamını ekrana yazdıracak
     }
 }
