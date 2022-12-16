@@ -1,0 +1,15 @@
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\bin\Debug\net6.0\ConsoleApp6.exe
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\bin\Debug\net6.0\ConsoleApp6.deps.json
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\bin\Debug\net6.0\ConsoleApp6.runtimeconfig.json
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\bin\Debug\net6.0\ConsoleApp6.dll
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\bin\Debug\net6.0\ConsoleApp6.pdb
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\obj\Debug\net6.0\ConsoleApp6.csproj.AssemblyReference.cache
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\obj\Debug\net6.0\ConsoleApp6.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\obj\Debug\net6.0\ConsoleApp6.AssemblyInfoInputs.cache
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\obj\Debug\net6.0\ConsoleApp6.AssemblyInfo.cs
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\obj\Debug\net6.0\ConsoleApp6.csproj.CoreCompileInputs.cache
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\obj\Debug\net6.0\ConsoleApp6.dll
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\obj\Debug\net6.0\refint\ConsoleApp6.dll
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\obj\Debug\net6.0\ConsoleApp6.pdb
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\obj\Debug\net6.0\ConsoleApp6.genruntimeconfig.cache
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Console Apps\ConsoleApp6\obj\Debug\net6.0\ref\ConsoleApp6.dll
