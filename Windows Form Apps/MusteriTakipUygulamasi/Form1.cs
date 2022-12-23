@@ -1,4 +1,4 @@
-namespace MusteriTakipUygulamasi
+﻿namespace MusteriTakipUygulamasi
 {
     public partial class Form1 : Form
     {
@@ -11,12 +11,28 @@ namespace MusteriTakipUygulamasi
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            btnSil.Enabled = true;
+            
         }
 
         private void listMusteriler_DoubleClick(object sender, EventArgs e)
         {
+            Musteri musteri = (Musteri)listMusteriler.SelectedItem;
+            txtId.Text = musteri.Id.ToString();
+            txtKayitTarihi.Text = musteri.KayitTarihi.ToString();
+            txtAdi.Text = musteri.Adi;
+            txtSoyadi.Text = musteri.Soyadi;
+            txtCepTelefonu.Text = musteri.CepTelefonu;
+            txtEvTelefonu.Text = musteri.EvTelefonu;
 
+            txtUnvan.Text = musteri.FaturaBilgisi.Unvan;
+            txtVergiDairesi.Text = musteri.FaturaBilgisi.VergiDairesi;
+            txtVergiNo.Text = musteri.FaturaBilgisi.VergiNo;
+            txtSehir.Text = musteri.FaturaBilgisi.Sehir;
+            txtIlce.Text = musteri.FaturaBilgisi.Ilce;
+            txtAdres.Text = musteri.FaturaBilgisi.Adres;
+
+            btnSil.Enabled = true;
+            btnKaydet.Enabled = true;
         }
 
         private void btnEkle_Click(object sender, EventArgs e)
@@ -27,7 +43,24 @@ namespace MusteriTakipUygulamasi
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            
+            if (MessageBox.Show($"{txtAdi.Text} {txtSoyadi.Text} isimli müşteriyi silmek istiyor musunuz ?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
+                return;
+
+
+            Musteriler.Remove((Musteri)listMusteriler.SelectedItem);
+            MusterileriListele();
+
+            foreach (var item in tabPage1.Controls)
+            {
+                if (item is TextBox)
+                    ((TextBox)item).Text = "";
+            }
+
+            foreach (var item in tabPage2.Controls)
+            {
+                if (item is TextBox)
+                    ((TextBox)item).Text = "";
+            }
         }
 
         private void btnKaydet_Click(object sender, EventArgs e)
@@ -37,9 +70,9 @@ namespace MusteriTakipUygulamasi
 
         public void MusterileriListele()
         {
+            listMusteriler.DataSource = null;
             listMusteriler.DisplayMember = "AdiSoyadi";
             listMusteriler.ValueMember = "Id";
-
             listMusteriler.DataSource = Musteriler;
         }
     }

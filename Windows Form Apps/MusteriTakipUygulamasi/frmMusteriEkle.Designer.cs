@@ -57,8 +57,8 @@
             this.txtUnvan = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnKaydet = new System.Windows.Forms.Button();
             this.btnVazgec = new System.Windows.Forms.Button();
+            this.btnKaydet = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -77,6 +77,7 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(898, 794);
             this.tabControl1.TabIndex = 3;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -391,21 +392,6 @@
             this.panel1.Size = new System.Drawing.Size(898, 141);
             this.panel1.TabIndex = 4;
             // 
-            // btnKaydet
-            // 
-            this.btnKaydet.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnKaydet.Image = ((System.Drawing.Image)(resources.GetObject("btnKaydet.Image")));
-            this.btnKaydet.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKaydet.Location = new System.Drawing.Point(686, 39);
-            this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnKaydet.Size = new System.Drawing.Size(171, 66);
-            this.btnKaydet.TabIndex = 0;
-            this.btnKaydet.Text = "Kaydet";
-            this.btnKaydet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnKaydet.UseVisualStyleBackColor = true;
-            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
-            // 
             // btnVazgec
             // 
             this.btnVazgec.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -420,6 +406,22 @@
             this.btnVazgec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnVazgec.UseVisualStyleBackColor = true;
             this.btnVazgec.Click += new System.EventHandler(this.btnVazgec_Click);
+            // 
+            // btnKaydet
+            // 
+            this.btnKaydet.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnKaydet.Image = ((System.Drawing.Image)(resources.GetObject("btnKaydet.Image")));
+            this.btnKaydet.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKaydet.Location = new System.Drawing.Point(686, 39);
+            this.btnKaydet.Name = "btnKaydet";
+            this.btnKaydet.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
+            this.btnKaydet.Size = new System.Drawing.Size(171, 66);
+            this.btnKaydet.TabIndex = 0;
+            this.btnKaydet.Tag = "0";
+            this.btnKaydet.Text = "Kaydet";
+            this.btnKaydet.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // frmMusteriEkle
             // 

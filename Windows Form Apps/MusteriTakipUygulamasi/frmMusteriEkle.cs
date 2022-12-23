@@ -35,6 +35,12 @@ namespace MusteriTakipUygulamasi
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
+            if (btnKaydet.Tag.ToString() == "0")
+            {
+                if (MessageBox.Show("Fatura bilgilerini unuttunuz. Yinede devam etmek istiyor musunuz ?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.No)
+                    return;
+            }
+
             Musteri musteri = new Musteri();
             musteri.Id = form1.Musteriler.Count() + 1;
             musteri.Adi = txtAdi.Text;
@@ -62,6 +68,11 @@ namespace MusteriTakipUygulamasi
             }
             else if (e.KeyCode == Keys.Enter)
                 btnKaydet_Click(btnKaydet, null);
+        }
+
+        private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            btnKaydet.Tag = "1";
         }
     }
 }
