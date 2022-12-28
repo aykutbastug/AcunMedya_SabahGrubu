@@ -101,9 +101,3 @@
         }
     }
 }
-
-
-
-//bir tane form eklliyoruz
-//formun bir buton vasıtsıyla veya uygulama çalıırken açılmasını sağlıyoruz
-//form içerisine bir tane textbox bir tane button bir tane listbox ekliyoruz
