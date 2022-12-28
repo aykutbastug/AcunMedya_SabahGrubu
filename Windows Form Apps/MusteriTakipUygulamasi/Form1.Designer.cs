@@ -42,6 +42,8 @@
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.menü1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menü2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
+            this.form2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.txtEvTelefonu = new System.Windows.Forms.TextBox();
@@ -122,7 +124,8 @@
             this.btnSil,
             this.toolStripSeparator2,
             this.btnKaydet,
-            this.toolStripSplitButton1});
+            this.toolStripSplitButton1,
+            this.toolStripSplitButton2});
             this.toolStrip1.Location = new System.Drawing.Point(705, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(952, 58);
@@ -196,6 +199,24 @@
             this.menü2ToolStripMenuItem.Name = "menü2ToolStripMenuItem";
             this.menü2ToolStripMenuItem.Size = new System.Drawing.Size(316, 40);
             this.menü2ToolStripMenuItem.Text = "Geliştirici Hakkında";
+            // 
+            // toolStripSplitButton2
+            // 
+            this.toolStripSplitButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripSplitButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.form2ToolStripMenuItem});
+            this.toolStripSplitButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton2.Image")));
+            this.toolStripSplitButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripSplitButton2.Name = "toolStripSplitButton2";
+            this.toolStripSplitButton2.Size = new System.Drawing.Size(52, 52);
+            this.toolStripSplitButton2.Text = "toolStripSplitButton2";
+            // 
+            // form2ToolStripMenuItem
+            // 
+            this.form2ToolStripMenuItem.Name = "form2ToolStripMenuItem";
+            this.form2ToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.form2ToolStripMenuItem.Text = "Form2";
+            this.form2ToolStripMenuItem.Click += new System.EventHandler(this.form2ToolStripMenuItem_Click);
             // 
             // tabControl1
             // 
@@ -590,5 +611,7 @@
         private Label label12;
         private TextBox txtUnvan;
         private Label label13;
+        private ToolStripSplitButton toolStripSplitButton2;
+        private ToolStripMenuItem form2ToolStripMenuItem;
     }
 }

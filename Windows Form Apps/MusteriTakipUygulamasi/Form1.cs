@@ -11,7 +11,25 @@
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            for (int i = 1; i < 11; i++)
+            {
+                Musteri musteri = new Musteri();
+                musteri.Id = Musteriler.Count() + 1;
+                musteri.Adi = "Müşteri";
+                musteri.Soyadi = i.ToString();
+                musteri.CepTelefonu = "123123123";
+                musteri.EvTelefonu = "123123132";
+                musteri.FaturaBilgisi.Unvan = "ünvan " + i;
+                musteri.FaturaBilgisi.VergiDairesi = "vergi dairesi " + i;
+                musteri.FaturaBilgisi.VergiNo = "vn " + i;
+                musteri.FaturaBilgisi.Sehir = "";
+                musteri.FaturaBilgisi.Ilce = "";
+                musteri.FaturaBilgisi.Adres = "";
+
+                Musteriler.Add(musteri);
+            }
+
+            MusterileriListele();
         }
 
         private void listMusteriler_DoubleClick(object sender, EventArgs e)
@@ -75,5 +93,17 @@
             listMusteriler.ValueMember = "Id";
             listMusteriler.DataSource = Musteriler;
         }
+
+        private void form2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+        }
     }
 }
+
+
+
+//bir tane form eklliyoruz
+//formun bir buton vasıtsıyla veya uygulama çalıırken açılmasını sağlıyoruz
+//form içerisine bir tane textbox bir tane button bir tane listbox ekliyoruz
