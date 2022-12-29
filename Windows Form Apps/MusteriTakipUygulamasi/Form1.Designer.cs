@@ -44,6 +44,7 @@
             this.menü2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
             this.form2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.form3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.txtEvTelefonu = new System.Windows.Forms.TextBox();
@@ -72,6 +73,7 @@
             this.txtUnvan = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.kasaUygulamasıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -204,7 +206,9 @@
             // 
             this.toolStripSplitButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripSplitButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.form2ToolStripMenuItem});
+            this.form2ToolStripMenuItem,
+            this.form3ToolStripMenuItem,
+            this.kasaUygulamasıToolStripMenuItem});
             this.toolStripSplitButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton2.Image")));
             this.toolStripSplitButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton2.Name = "toolStripSplitButton2";
@@ -217,6 +221,13 @@
             this.form2ToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
             this.form2ToolStripMenuItem.Text = "Form2";
             this.form2ToolStripMenuItem.Click += new System.EventHandler(this.form2ToolStripMenuItem_Click);
+            // 
+            // form3ToolStripMenuItem
+            // 
+            this.form3ToolStripMenuItem.Name = "form3ToolStripMenuItem";
+            this.form3ToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.form3ToolStripMenuItem.Text = "Form3";
+            this.form3ToolStripMenuItem.Click += new System.EventHandler(this.form3ToolStripMenuItem_Click);
             // 
             // tabControl1
             // 
@@ -543,6 +554,13 @@
             this.ımageList1.Images.SetKeyName(0, "fatura_bilgileri");
             this.ımageList1.Images.SetKeyName(1, "musteri_bilgileri");
             // 
+            // kasaUygulamasıToolStripMenuItem
+            // 
+            this.kasaUygulamasıToolStripMenuItem.Name = "kasaUygulamasıToolStripMenuItem";
+            this.kasaUygulamasıToolStripMenuItem.Size = new System.Drawing.Size(315, 40);
+            this.kasaUygulamasıToolStripMenuItem.Text = "Kasa Uygulaması";
+            this.kasaUygulamasıToolStripMenuItem.Click += new System.EventHandler(this.kasaUygulamasıToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 38F);
@@ -613,5 +631,7 @@
         private Label label13;
         private ToolStripSplitButton toolStripSplitButton2;
         private ToolStripMenuItem form2ToolStripMenuItem;
+        private ToolStripMenuItem form3ToolStripMenuItem;
+        private ToolStripMenuItem kasaUygulamasıToolStripMenuItem;
     }
 }

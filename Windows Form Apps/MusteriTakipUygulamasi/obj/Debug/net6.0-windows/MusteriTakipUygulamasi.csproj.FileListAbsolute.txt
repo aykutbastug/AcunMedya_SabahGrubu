@@ -18,3 +18,5 @@ C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Windows Form Apps\MusteriTakipUygulam
 C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Windows Form Apps\MusteriTakipUygulamasi\obj\Debug\net6.0-windows\ref\MusteriTakipUygulamasi.dll
 C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Windows Form Apps\MusteriTakipUygulamasi\obj\Debug\net6.0-windows\MusteriTakipUygulamasi.frmMusteriEkle.resources
 C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Windows Form Apps\MusteriTakipUygulamasi\obj\Debug\net6.0-windows\MusteriTakipUygulamasi.Form2.resources
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Windows Form Apps\MusteriTakipUygulamasi\obj\Debug\net6.0-windows\MusteriTakipUygulamasi.Form3.resources
+C:\GitHub\aykutbastug\AcunMedya_SabahGrubu\Windows Form Apps\MusteriTakipUygulamasi\obj\Debug\net6.0-windows\MusteriTakipUygulamasi.frmKasaUygulamasi.resources

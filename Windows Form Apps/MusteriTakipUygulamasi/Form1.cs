@@ -99,5 +99,17 @@
             Form2 form2 = new Form2();
             form2.ShowDialog();
         }
+
+        private void form3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 form3form3 = new Form3();
+            form3form3.ShowDialog();
+        }
+
+        private void kasaUygulamasıToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmKasaUygulamasi frm = new frmKasaUygulamasi();
+            frm.ShowDialog();
+        }
     }
 }
