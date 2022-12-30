@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ders3-Pratik/1.0.0": {
+        "runtime": {
+          "Ders3-Pratik.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ders3-Pratik/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\bin\Debug\net6.0\Ders3-Pratik.exe
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\bin\Debug\net6.0\Ders3-Pratik.deps.json
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\bin\Debug\net6.0\Ders3-Pratik.runtimeconfig.json
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\bin\Debug\net6.0\Ders3-Pratik.dll
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\bin\Debug\net6.0\Ders3-Pratik.pdb
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\obj\Debug\net6.0\Ders3-Pratik.csproj.AssemblyReference.cache
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\obj\Debug\net6.0\Ders3-Pratik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\obj\Debug\net6.0\Ders3-Pratik.AssemblyInfoInputs.cache
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\obj\Debug\net6.0\Ders3-Pratik.AssemblyInfo.cs
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\obj\Debug\net6.0\Ders3-Pratik.csproj.CoreCompileInputs.cache
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\obj\Debug\net6.0\Ders3-Pratik.dll
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\obj\Debug\net6.0\refint\Ders3-Pratik.dll
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\obj\Debug\net6.0\Ders3-Pratik.pdb
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\obj\Debug\net6.0\Ders3-Pratik.genruntimeconfig.cache
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik\obj\Debug\net6.0\ref\Ders3-Pratik.dll

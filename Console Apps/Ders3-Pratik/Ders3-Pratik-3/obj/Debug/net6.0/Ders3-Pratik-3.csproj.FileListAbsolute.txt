@@ -1,0 +1,15 @@
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\bin\Debug\net6.0\Ders3-Pratik-3.exe
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\bin\Debug\net6.0\Ders3-Pratik-3.deps.json
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\bin\Debug\net6.0\Ders3-Pratik-3.runtimeconfig.json
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\bin\Debug\net6.0\Ders3-Pratik-3.dll
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\bin\Debug\net6.0\Ders3-Pratik-3.pdb
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\obj\Debug\net6.0\Ders3-Pratik-3.csproj.AssemblyReference.cache
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\obj\Debug\net6.0\Ders3-Pratik-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\obj\Debug\net6.0\Ders3-Pratik-3.AssemblyInfoInputs.cache
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\obj\Debug\net6.0\Ders3-Pratik-3.AssemblyInfo.cs
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\obj\Debug\net6.0\Ders3-Pratik-3.csproj.CoreCompileInputs.cache
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\obj\Debug\net6.0\Ders3-Pratik-3.dll
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\obj\Debug\net6.0\refint\Ders3-Pratik-3.dll
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\obj\Debug\net6.0\Ders3-Pratik-3.pdb
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\obj\Debug\net6.0\Ders3-Pratik-3.genruntimeconfig.cache
+C:\Users\aykut\OneDrive\Kampüs365 - Full Stack Dev 2\Ders3\Ders3-Pratik\Ders3-Pratik-3\obj\Debug\net6.0\ref\Ders3-Pratik-3.dll
