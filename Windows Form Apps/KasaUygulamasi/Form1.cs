@@ -48,6 +48,9 @@
             item5.SubItems.Add("Meyve");
             item5.SubItems.Add("55555");
             listUrunler.Items.Add(item5);
+
+
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void detaylıGörünümToolStripMenuItem_Click(object sender, EventArgs e)
@@ -69,7 +72,12 @@
             if (listUrunler.SelectedItems.Count == 0)
                 return;
 
-            ListViewItem seciliUrun = listUrunler.SelectedItems[0];
+            UrunEkle(listUrunler.SelectedItems[0]);
+        }
+
+        private void UrunEkle(ListViewItem seciliUrun)
+        {
+            //ListViewItem seciliUrun = listUrunler.SelectedItems[0];
             string barkod = seciliUrun.SubItems[3].Text;
             ListViewItem sepettekiUrun = null;
 
@@ -127,6 +135,78 @@
 
             listSepet.Items.Clear();
             Hesapla();
+        }
+
+        private void btnSepettenCikar_Click(object sender, EventArgs e)
+        {
+            if (listSepet.SelectedItems.Count == 0) return; 
+
+            listSepet.Items.Remove(listSepet.SelectedItems[0]);
+            Hesapla();
+        }
+
+        private void btnArttir_Click(object sender, EventArgs e)
+        {
+            if (listSepet.SelectedItems.Count == 0)
+                return;
+
+            ListViewItem seciliUrun = listSepet.SelectedItems[0];
+            decimal birimFiyat = Convert.ToDecimal(seciliUrun.SubItems[1].Text.Replace(" ₺",""));
+            int miktar = Convert.ToInt32(seciliUrun.SubItems[2].Text);
+            miktar++;
+            decimal tutar = birimFiyat * miktar;
+            seciliUrun.SubItems[2].Text = miktar.ToString();
+            seciliUrun.SubItems[3].Text = tutar.ToString("n2") + " ₺";
+
+            Hesapla();
+        }
+
+        private void btnAzalt_Click(object sender, EventArgs e)
+        {
+            if (listSepet.SelectedItems.Count == 0)
+                return;
+
+            ListViewItem seciliUrun = listSepet.SelectedItems[0];
+            decimal birimFiyat = Convert.ToDecimal(seciliUrun.SubItems[1].Text.Replace(" ₺", ""));
+            int miktar = Convert.ToInt32(seciliUrun.SubItems[2].Text);
+
+            if (miktar == 1)
+            {
+                listSepet.Items.Remove(listSepet.SelectedItems[0]);
+                Hesapla();
+                return;
+            }
+
+            miktar--;
+            decimal tutar = birimFiyat * miktar;
+            seciliUrun.SubItems[2].Text = miktar.ToString();
+            seciliUrun.SubItems[3].Text = tutar.ToString("n2") + " ₺";
+
+            Hesapla();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.TextLength <= 4) 
+                return;
+
+            ListViewItem bulunanUrun = null;
+            foreach (ListViewItem item in listUrunler.Items)
+            {
+                if (item.SubItems[3].Text == textBox1.Text)
+                {
+                    bulunanUrun = item;
+                    break;
+                }
+            }
+
+            if (bulunanUrun == null)
+                return;
+
+            UrunEkle(bulunanUrun);
+
+            textBox1.Text = "";
+            textBox1.Focus();
         }
     }
 }

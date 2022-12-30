@@ -60,6 +60,9 @@
             this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
@@ -68,6 +71,7 @@
             this.panel3.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -184,6 +188,7 @@
             this.btnSepettenCikar.TabIndex = 0;
             this.toolTip1.SetToolTip(this.btnSepettenCikar, "Seçili olan ürünü sepetten çıkar");
             this.btnSepettenCikar.UseVisualStyleBackColor = true;
+            this.btnSepettenCikar.Click += new System.EventHandler(this.btnSepettenCikar_Click);
             // 
             // btnAzalt
             // 
@@ -194,6 +199,7 @@
             this.btnAzalt.TabIndex = 0;
             this.toolTip1.SetToolTip(this.btnAzalt, "Sepetteki seçili ürünün miktarını bir adet azaltır.");
             this.btnAzalt.UseVisualStyleBackColor = true;
+            this.btnAzalt.Click += new System.EventHandler(this.btnAzalt_Click);
             // 
             // btnArttir
             // 
@@ -204,6 +210,7 @@
             this.btnArttir.TabIndex = 0;
             this.toolTip2.SetToolTip(this.btnArttir, "Sepetteki seçili ürünün miktarını bir adet arttırır.");
             this.btnArttir.UseVisualStyleBackColor = true;
+            this.btnArttir.Click += new System.EventHandler(this.btnArttir_Click);
             // 
             // panel3
             // 
@@ -304,6 +311,7 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.listUrunler);
+            this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(884, 0);
@@ -322,9 +330,9 @@
             this.listUrunler.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listUrunler.FullRowSelect = true;
             this.listUrunler.LargeImageList = this.ımageList1;
-            this.listUrunler.Location = new System.Drawing.Point(0, 61);
+            this.listUrunler.Location = new System.Drawing.Point(0, 119);
             this.listUrunler.Name = "listUrunler";
-            this.listUrunler.Size = new System.Drawing.Size(903, 986);
+            this.listUrunler.Size = new System.Drawing.Size(903, 928);
             this.listUrunler.SmallImageList = this.ımageList2;
             this.listUrunler.TabIndex = 1;
             this.listUrunler.UseCompatibleStateImageBehavior = false;
@@ -350,6 +358,38 @@
             // 
             this.columnHeader4.Text = "Barkod";
             this.columnHeader4.Width = 150;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.textBox1);
+            this.panel5.Controls.Add(this.label4);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 61);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(903, 58);
+            this.panel5.TabIndex = 2;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.Location = new System.Drawing.Point(181, 0);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(722, 57);
+            this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.Color.Gainsboro;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(0, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(181, 58);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Barkod :";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
@@ -385,6 +425,8 @@
             this.panel3.ResumeLayout(false);
             this.contextMenuStrip1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -424,5 +466,8 @@
         private Button btnSepetiBosalt;
         private Button btnSepettenCikar;
         private ColumnHeader columnHeader9;
+        private Panel panel5;
+        private Label label4;
+        private TextBox textBox1;
     }
 }
