@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    string tarih = DateTime.Now.ToString();
+    string[] renkler = new string[] { "Kırmızı", "Beyaz", "Yeşil", "Mavi" };
+    int sonuc = 50 + 40;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <br />
+    <br />
+    @* Tarih : @DateTime.Now*@
+    Tarih : @tarih
+    <br />
+    Sonuc : @sonuc.ToString()
+    <br />
+    RENKLER
+    <hr />
+
+    <ul>
+        @foreach (string item in renkler)
+        {
+            <li>@item</li>
+        }
+    </ul>
+
+   @* <ul>
+        <li>Kırmızı</li>
+        <li>Beyaz</li>
+        <li>Yeşil</li>
+        <li>Mavi</li>
+    </ul>*@
+
+    @{
+        string baslik = "Sayfa Başlığı";
+
+        int Toplam(int sayi1, int sayi2)
+        {
+
+            return sayi1 + sayi2;
+        }
+    }
+
+    <h1>@baslik</h1>
+
+    <br /><hr />
+    Sayıların Toplamı : <strong>@Toplam(30, 50)</strong>'dir
+
+
+
+
+</div>

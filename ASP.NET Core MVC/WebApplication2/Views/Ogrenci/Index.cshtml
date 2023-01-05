@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Öğrenci Listesi";
+
+    //sayfanın içinde bu öğrenci listesini bir table etiketi içinde listeleyeceğiz.
+
+    List<Ogrenci> ogrenciler = new List<Ogrenci>();
+    for (int i = 1; i < 15; i++)
+    {
+        ogrenciler.Add(new Ogrenci
+        {
+            Adi = "Öğrenci " + i,
+            Soyadi = "Soyadı " + i,
+            Bolum = "Software Developer",
+            Telefon = "121123123" + i
+        });
+    }
+}
+
+<h1>Öğrenci Listesi</h1>
+<br />
+<table class="table table-hover">
+    <tr>
+        <td>Adı</td>
+        <td>Soyadı</td>
+        <td>Bölümü</td>
+        <td>Telefon</td>
+    </tr>
+    @foreach (Ogrenci item in ogrenciler)
+    {
+        <tr>
+            <td>@item.Adi</td>
+            <td>@item.Soyadi</td>
+            <td>@item.Bolum</td>
+            <td>@item.Telefon</td>
+        </tr>
+    }
+</table>
