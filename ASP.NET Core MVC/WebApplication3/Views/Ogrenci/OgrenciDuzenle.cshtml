@@ -1,0 +1,39 @@
+﻿@model Ogrenci
+@{
+    ViewData["Title"] = "Öğrenci Düzenle";
+}
+
+<div class="container">
+    <div class="row">
+        <h1>Öğrenci Düzenle</h1>
+        <br />
+        <form method="post" asp-controller="Ogrenci" asp-action="OgrenciDuzenle">
+            <input type="hidden" asp-for="Id" />
+            <div class="mb-3">
+                <label asp-for="Adi" class="form-label"></label>
+                <input type="text" class="form-control" asp-for="Adi">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Soyadi" class="form-label"></label>
+                <input type="text" class="form-control" asp-for="Soyadi">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input type="text" class="form-control" asp-for="Email">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Bolum" class="form-label"></label>
+                <input type="text" class="form-control" asp-for="Bolum">
+            </div>
+            <div class="mb-3">
+                <label asp-for="DogumTarihi" class="form-label"></label>
+                <input type="text" class="form-control" asp-for="DogumTarihi">
+            </div>
+
+            <div class="mb-3">
+                <a asp-controller="Ogrenci" asp-action="OgrenciListesi" class="btn btn-secondary">Listeye Geri Dön</a>
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+            </div>
+        </form>
+    </div>
+</div>

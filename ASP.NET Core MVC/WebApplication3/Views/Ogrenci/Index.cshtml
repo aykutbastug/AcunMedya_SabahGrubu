@@ -1,0 +1,37 @@
+﻿@model Ogrenci
+@{
+    ViewData["Title"] = "Öğrenci Bilgileri";
+}
+@*div.container>div.row>table>tr*5>td*2*@
+@*table>tr*5>td*2*@
+
+<div class="container">
+    <div class="row">
+        <h1 class="display-4">Öğrenci Bilgileri</h1>
+        <br />
+
+        <table width="400px">
+            <tr>
+                <td style="width:120px;">Adı :</td>
+                <td>@Model.Adi</td>
+            </tr>
+            <tr>
+                <td>Soyadı :</td>
+                <td>@Model.Soyadi</td>
+            </tr>
+            <tr>
+                <td>Doğum Tarihi :</td>
+                <td>@Model.DogumTarihi.ToShortDateString()</td>
+            </tr>
+            <tr>
+                <td>Bölüm :</td>
+                <td>@Model.Bolum</td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td>@Model.Email</td>
+            </tr>
+        </table>
+    </div>
+
+</div>

@@ -1,0 +1,46 @@
+﻿@model Ogrenci
+@{
+    ViewData["Title"] = "Öğrenci Sil";
+}
+
+<div class="container">
+    <div class="row">
+        <h1>Öğrenci Sil</h1>
+        <br />
+
+        <div><strong>@Model.Adi @Model.Soyadi</strong> isimli öğrenciyi silmek istediğinize emin misiniz ?</div>
+        <br />
+        <br />
+        <form method="post" asp-controller="Ogrenci" asp-action="OgrenciSil">
+            <input type="hidden" asp-for="Id" />
+
+            <table width="400px" class="mb-4">
+                <tr>
+                    <td style="width:120px;">Adı :</td>
+                    <td>@Model.Adi</td>
+                </tr>
+                <tr>
+                    <td>Soyadı :</td>
+                    <td>@Model.Soyadi</td>
+                </tr>
+                <tr>
+                    <td>Doğum Tarihi :</td>
+                    <td>@Model.DogumTarihi.ToShortDateString()</td>
+                </tr>
+                <tr>
+                    <td>Bölüm :</td>
+                    <td>@Model.Bolum</td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td>@Model.Email</td>
+                </tr>
+            </table>
+
+            <div class="mb-3">
+                <a asp-controller="Ogrenci" asp-action="OgrenciListesi" class="btn btn-secondary">Listeye Geri Dön</a>
+                <button type="submit" class="btn btn-danger">Sil</button>
+            </div>
+        </form>
+    </div>
+</div>
